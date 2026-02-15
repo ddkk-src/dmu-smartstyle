@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - DMU SmartStyle</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="https://static.wixstatic.com/media/b80b06_530ed35b1753446191c20e4927dda090~mv2.jpeg/v1/crop/x_120,y_169,w_816,h_413/fill/w_228,h_114,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b80b06_530ed35b1753446191c20e4927dda090~mv2.jpeg" alt="DMU SmartStyle">
+            </a>
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle"><span>🌙</span></button>
+                <a href="cart.html" class="cart-icon"><span>🛒</span><span class="cart-badge">0</span></a>
+                <button class="hamburger"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-mobile">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">Shopping Cart</h1>
+
+                <div style="display: grid; grid-template-columns: 1fr; gap: 2rem; margin-top: 2rem;">
+                    <div style="grid-column: 1;">
+                        <div data-cart-items></div>
+                    </div>
+
+                    <div style="grid-column: 1;">
+                        <div class="cart-summary" data-cart-summary></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>© 2026 DMU SmartStyle. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <div id="checkout-disabled-modal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" data-modal-close>×</button>
+            <h2>Demo Site</h2>
+            <p style="color: var(--color-text-secondary); margin: 1rem 0;">This is a demonstration website. Checkout functionality is disabled.</p>
+            <p style="color: var(--color-text-secondary); margin-bottom: 2rem;">To purchase DMU SmartStyle systems, please contact our sales team directly.</p>
+            <a href="contact.html" class="btn btn-primary">Contact Sales</a>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

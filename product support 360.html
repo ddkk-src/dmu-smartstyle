@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styles Support 360 - DMU SmartStyle</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="https://static.wixstatic.com/media/b80b06_530ed35b1753446191c20e4927dda090~mv2.jpeg/v1/crop/x_120,y_169,w_816,h_413/fill/w_228,h_114,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b80b06_530ed35b1753446191c20e4927dda090~mv2.jpeg" alt="DMU">
+            </a>
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle"><span>🌙</span></button>
+                <a href="cart.html" class="cart-icon"><span>🛒</span><span class="cart-badge">0</span></a>
+                <button class="hamburger"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="nav-mobile">
+        <ul><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li></ul>
+    </nav>
+    
+    <main>
+        <section class="section">
+            <div class="container">
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+                    <div>
+                        <img src="https://static.wixstatic.com/media/b80b06_742c3195c37543c1a554562c9f0dfae9~mv2.png/v1/fill/w_976,h_976,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b80b06_742c3195c37543c1a554562c9f0dfae9~mv2.png" alt="Styles Support 360" style="width: 100%; border-radius: 20px; box-shadow: 0 30px 80px var(--color-shadow);">
+                    </div>
+                    <div style="position: sticky; top: calc(var(--header-height) + 2rem);">
+                        <h1 class="section-title">Styles Support 360</h1>
+                        <p class="card-price" style="font-size: 2rem;">$18,000/year</p>
+                        <p style="color: var(--color-text-secondary); line-height: 1.8; margin: 1.5rem 0;">Premium support package with 24/7 technical assistance, priority updates, and dedicated account management. Maximum uptime guaranteed for mission-critical retail operations.</p>
+                        <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+                            <button class="btn btn-primary" data-add-to-cart data-product-id="support-360" data-product-name="Styles Support 360" data-product-price="18000" data-product-image="https://static.wixstatic.com/media/b80b06_742c3195c37543c1a554562c9f0dfae9~mv2.png/v1/fill/w_976,h_976,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/b80b06_742c3195c37543c1a554562c9f0dfae9~mv2.png">Add to Cart</button>
+                            <a href="contact.html" class="btn btn-secondary">Request Demo</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 4rem;">
+                    <h2 style="margin-bottom: 1.5rem;">Premium Features</h2>
+                    <div class="grid grid-3">
+                        <div class="feature-box glass-card">
+                            <div class="feature-icon">🚨</div>
+                            <h3 class="feature-title">24/7 Support</h3>
+                            <p class="feature-description">Round-the-clock technical assistance via phone, email, and live chat</p>
+                        </div>
+                        <div class="feature-box glass-card">
+                            <div class="feature-icon">👤</div>
+                            <h3 class="feature-title">Dedicated Manager</h3>
+                            <p class="feature-description">Personal account manager for strategic guidance</p>
+                        </div>
+                        <div class="feature-box glass-card">
+                            <div class="feature-icon">⚡</div>
+                            <h3 class="feature-title">Priority Updates</h3>
+                            <p class="feature-description">First access to new features and security patches</p>
+                        </div>
+                        <div class="feature-box glass-card">
+                            <div class="feature-icon">📊</div>
+                            <h3 class="feature-title">Advanced Analytics</h3>
+                            <p class="feature-description">Deep insights into customer behavior and trends</p>
+                        </div>
+                        <div class="feature-box glass-card">
+                            <div class="feature-icon">🔧</div>
+                            <h3 class="feature-title">Custom Integration</h3>
+                            <p class="feature-description">Tailored API connections to your systems</p>
+                        </div>
+                        <div class="feature-box glass-card">
+                            <div class="feature-icon">🎓</div>
+                            <h3 class="feature-title">Staff Training</h3>
+                            <p class="feature-description">Quarterly on-site training sessions included</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="margin-top: 4rem;">
+                    <h2 style="margin-bottom: 1.5rem;">Technical Specifications</h2>
+                    <table class="comparison-table">
+                        <tr><td><strong>Support Availability</strong></td><td>24/7/365</td></tr>
+                        <tr><td><strong>Response Time</strong></td><td>&lt;15 minutes (critical issues)</td></tr>
+                        <tr><td><strong>Account Manager</strong></td><td>Dedicated + backup</td></tr>
+                        <tr><td><strong>Software Updates</strong></td><td>Priority early access</td></tr>
+                        <tr><td><strong>Training Sessions</strong></td><td>4 per year (on-site)</td></tr>
+                        <tr><td><strong>Custom Integration</strong></td><td>Included (up to 40 hours)</td></tr>
+                        <tr><td><strong>SLA Uptime Guarantee</strong></td><td>99.9%</td></tr>
+                        <tr><td><strong>Remote Monitoring</strong></td><td>Proactive 24/7</td></tr>
+                    </table>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, rgba(0, 113, 227, 0.1) 0%, rgba(0, 113, 227, 0.05) 100%); border-radius: 20px; padding: 3rem; margin-top: 4rem; text-align: center;">
+                    <h2 class="section-title">Enterprise-Ready Support</h2>
+                    <p style="color: var(--color-text-secondary); max-width: 600px; margin: 1rem auto 2rem;">Perfect for multi-location retailers and flagship stores where downtime is not an option. Your success is our mission.</p>
+                    <a href="contact.html" class="btn btn-primary">Schedule Consultation</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="footer-bottom"><p>© 2026 DMU SmartStyle. All rights reserved.</p></div>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

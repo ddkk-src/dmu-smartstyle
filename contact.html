@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - DMU SmartStyle</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">
+                <img src="https://static.wixstatic.com/media/b80b06_530ed35b1753446191c20e4927dda090~mv2.jpeg/v1/crop/x_120,y_169,w_816,h_413/fill/w_228,h_114,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/b80b06_530ed35b1753446191c20e4927dda090~mv2.jpeg" alt="DMU">
+            </a>
+            <nav class="nav-desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle"><span>🌙</span></button>
+                <a href="cart.html" class="cart-icon"><span>🛒</span><span class="cart-badge">0</span></a>
+                <button class="hamburger"><span></span><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+
+    <nav class="nav-mobile">
+        <ul><li><a href="index.html">Home</a></li><li><a href="products.html">Products</a></li></ul>
+    </nav>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title text-center">Get in Touch</h1>
+                <p class="section-subtitle text-center" style="margin: 0 auto;">We'd love to hear from you. Send us a message and we'll respond within 48 hours.</p>
+
+                <div style="max-width: 700px; margin: 3rem auto;">
+                    <form data-contact-form>
+                        <div class="form-group">
+                            <label class="form-label" for="name">Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="email">Email *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="company">Company</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label" for="message">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+                <div style="background: var(--color-card-bg); border: 1px solid var(--color-border); border-radius: 20px; padding: 2rem; max-width: 700px; margin: 3rem auto;">
+                    <h2 style="margin-bottom: 1.5rem;">Contact Information</h2>
+                    <p style="color: var(--color-text-secondary); margin-bottom: 1rem;">
+                        <strong>Address:</strong><br>
+                        DMU SmartStyle<br>
+                        123 Avenue des Champs-Élysées<br>
+                        75008 Paris, France
+                    </p>
+                    <p style="color: var(--color-text-secondary); margin-bottom: 1rem;">
+                        <strong>Email:</strong> contact@dmusmartstyle.com
+                    </p>
+                    <p style="color: var(--color-text-secondary);">
+                        <strong>Phone:</strong> +33 1 23 45 67 89
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-bottom"><p>© 2026 DMU SmartStyle. All rights reserved.</p></div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
